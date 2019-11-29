@@ -1,0 +1,164 @@
+/* style.css */
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+html, body{height: 100%;}
+
+body{
+    color: #1b1b1b;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#main_header{
+    position: absolute;
+    height: 100%;
+    /* background: #ccc; */
+    background-size: cover;
+    text-align: right;
+}
+#main_header>h1{
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    line-height: 1.5em;
+}
+#main_header > .info{
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#main_header > .info>time{
+    display: block;
+    font-size: 44px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #1b1b1b;
+    margin-left: 310px;
+}
+#main_header .name{
+    font-size: 22px;
+    line-height: 37.5px;
+} 
+#main_visual{
+    /* position: absolute; */
+    height: 100%;
+    background-image: url('../images/main_visual@2x.jpg');
+    background-size: cover;
+}
+#intro{
+    text-align: center;
+    background: #fff;
+    /* height: 100%; */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px 0;
+    font-size: 12px;
+    /* position: absolute; */
+}
+#intro>h2{
+    font-size: 12px;
+    line-height: 24px;
+    color: #ac916b;
+    border-top: 1px solid #ac916b;
+    border-bottom: 1px solid #ac916b;
+    padding: 24px 0;
+    margin: 0 50px; /* 선 수평여백 */
+    /* margin-top: 104px; */
+    margin-bottom: 50px;
+}
+#intro>p{
+    line-height: 20px;
+}
+#intro>.intro_name{
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+#intro>.intro_name>span{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 상하 40px 여백 */
+#intro address{
+    padding: 35px 0;
+    padding-bottom: 100px;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.photo{
+    position: absolute;
+}
+.img_responsive{
+    width: 100%;
+}
+#photo>.photo_list>li{
+    margin-bottom: 24px;
+}
+#photo>.photo_list>li:last-child{
+    margin-bottom: 0;
+}
+
+#photo>.photo_list>li:nth-child(2){
+    overflow: hidden;
+    /* outline: 1px solid red; */
+}
+#photo>.photo_list>li:nth-child(2)>div{
+    float: left;
+    width: 50%;
+    /* outline: 1px solid green; */
+}
+#photo>.photo_list>li:nth-child(2)>.right{
+    color: #ac916b;
+    text-align: center;
+    position: relative;
+    background: #ccc;
+}
+#photo>.photo_list>li:nth-child(2)>.right>h3{
+    position: absolute;
+    width: 100%;
+    padding-top: 50%;
+    margin-top: -10.5px;
+}
+#invitation{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 51px;
+}
+#invitation>h2{
+    font-size: 12px;
+}
+#invitation>time{
+    line-height: 45px;
+}
+#invitation>.address>h2{
+    font-size: 12px;
+    line-height: 24px;
+    color: #ac916b;
+    border-top: 1px solid #ac916b;
+    border-bottom: 1px solid #ac916b;
+    padding: 24px 0;
+    margin: 0 50px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+
+#map>#map_box>img{
+    background-size: cover;
+}
+
+footer{
+    background: #ac916b;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer .tranport li{
+    margin-bottom: 16px;
+}
+footer .tranport li:last-child{
+    margin-bottom: 0;
+}
